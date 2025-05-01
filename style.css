@@ -1,3 +1,4 @@
+/* General styles for the body and frames */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -7,14 +8,19 @@ body {
 }
 
 .frame {
-  display: none;
+  display: none; /* By default, frames are hidden */
   padding: 20px;
 }
 
 .frame:first-of-type {
-  display: block;
+  display: block; /* Display the first frame initially */
 }
 
+.hidden {
+  display: none; /* Define the 'hidden' class */
+}
+
+/* Button styles */
 button {
   background-color: #ff69b4;
   color: white;
@@ -26,7 +32,7 @@ button {
   margin-top: 20px;
 }
 
-button:hover {
+button:hover*
   background-color: #ff1493;
 }
 
